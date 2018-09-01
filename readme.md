@@ -12,3 +12,6 @@
 |Mock data file name|Contents of mock file from|
 |--|--|
 |./mock-data/apps-list.json|https://westus.dev.cognitive.microsoft.com/docs/services/5890b47c39e2bb17b84a55ff/operations/5890b47c39e2bb052c5b9c30/console|
+
+
+       // "comment-format":[true, "check-lowercase",{"ignore-words": ["TODO","TBD","HACK"]}]
