@@ -9,7 +9,8 @@ import {onSuccess} from "../onSuccess";
 
 export function apiLuisGetAppsList(req:Request, res:Response) {
 
-
+        console.log('apiLuisGetAppsList ' + new Date());
+        console.log(JSON.stringify(req.headers));
         const mockFileLocation = (Path.join(__dirname, '../../mock-data/apps-list.json'));
         console.log(mockFileLocation);
 
